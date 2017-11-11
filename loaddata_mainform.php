@@ -1,4 +1,5 @@
 <?php
+	// add config database
 	require_once('config.php');
     
         $query = mysqli_query($conn, "SELECT * FROM tb_user ");
@@ -12,6 +13,8 @@
             'Update' => $row['Update']
         );
         }
+		
+		//json 
       $json = json_encode($results);
 
   echo $json;
