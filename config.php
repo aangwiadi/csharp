@@ -1,7 +1,7 @@
 <?php
-  define('HOST','localhost');
-  define('USER','aangwiadi');
-  define('PASS','123456789');
+  define('HOST','');
+  define('USER','');
+  define('PASS','');
   define('DB','dbcrud_dekstop');
   $conn = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
 
