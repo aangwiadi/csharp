@@ -1,4 +1,6 @@
 <?php
+
+// add config database
 require_once('config.php');
   
     $UserID = $_GET['UserID'];
@@ -14,7 +16,7 @@ require_once('config.php');
     $stmt->fetch();
     $stmt->close();
 
-
+	// count data
     if ($TotalData > 0)
      {
        
